@@ -6,4 +6,4 @@
 ```
 git remote add origin [git URL]
 git remote add origin https://github.com/wwwalohacampus/sbs_web1.git
-```
+```   
