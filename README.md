@@ -1,10 +1,18 @@
 
 # sbs 아카데미 - WEB1
 
+
+
 ### Github 연동하기
 
-```
-git remote add origin [git URL]
-git remote add origin https://github.com/wwwalohacampus/sbs_web1.git
-```   
-테스트
+1. 소스제어 
+2. 레포지토리 초기화
+3. Git remote 설정
+    - [git URL] : 생성한 레포지토리 URL 입니다:)
+    ```
+    git remote add origin [git URL]
+    ```
+4. 커밋하기
+    ```
+
+
