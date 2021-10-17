@@ -1,17 +1,23 @@
 
 # sbs 아카데미 - WEB1
 
-ㅇㅇㅇ
+
 
 ### Github 연동하기
 
 1. 소스제어   
-2. 레포지토리 초기화
-3. Git remote 설정
-    - [git URL] : 생성한 레포지토리 URL 입니다:)
+2. Git clone
+    - [보기] > [명령 팔레트] 
     ```
-    git remote add origin [git URL]
+    git clone
     ```
+    - git url 입력
+
+3. Git 설정
+   ```
+   git config --global user.name [username]
+   git config --global user.email [email]
+   ```
 4. 커밋하기 (COMMIT)
     - 소스제어 > 변경 사항 > + (변경 내용 스테이징)
     - ✔ (커밋) > 메시지 입력
