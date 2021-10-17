@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+h1 {
+	font-size: 2.5rem;
+	color: #25a9bd;
+}
+
+section {
+	padding: 10px;
+}
+
+
+section:first-of-type {
+	color: #bc1212;
+}
+
+
+section:last-of-type:first-letter {
+	font-size: 2.4em;
+	float: left;
+	padding: 0 2px;
+	margin: -1px 3px 0 0;
+	font-weight: bold;
+	color: #f00;
+}
+
+
+section em {
+	display: block;
+	text-align: center;
+	padding: 15px;
+	position: relative;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+}
+
+section em:before {
+	/* em 부분에 :before 적용 "(따옴표) 효과 */
+	content: "\"";
+	padding-right: 0.5em; 
+}
+
+section em:after {
+	/* em 부분에 :after 적용 "(따옴표) 효과 */
+	content: "\"";
+	padding-left: 0.5em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

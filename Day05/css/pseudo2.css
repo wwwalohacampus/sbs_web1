@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+
+table.first {
+	width: 100%;
+	border-collapse: collapse;		/* 이중실선(x), 테두리를 실선으로 적용 */
+}
+
+table.first th {
+	padding: 8px;
+	background-color: #bc1212;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+table.first th:nth-child(2) {
+	letter-spacing: 45px;
+}
+
+table.first td {
+	padding: 10px;
+	text-align: center;
+}
+
+table.first td:first-child {
+	width: 15%;
+}
+
+table.first td:nth-child(2) {
+	width: 65%;
+}
+
+table.first td:last-child {
+	width: 20%;
+}
+
+table.first tr:nth-child(odd) {
+	background-color: #eee;
+}
+
+table.first tr:nth-child(even) {
+	background-color: #ffe8e9;
+}
+
+table.first tr:hover {
+	background-color: #9d9dff;
+}
+
+
+p:empty {
+	margin: 50px;
+}
+
+table.second {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.second th {
+	padding: 8px;
+	background-color: #ff8000;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+table.second th:nth-of-type(2) {
+	letter-spacing: 45px;
+}
+
+
+table.second td {
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+table.second td:first-of-type {
+	width: 15%;
+}
+
+table.second td:nth-of-type(2) {
+	text-align: left;
+	width: 65%;
+}
+
+table.second td:last-of-type {
+	width: 20%;
+}
+
+
+table.second tr:nth-of-type(odd) {
+	background-color: #aaa;
+}
+
+table.second tr:nth-of-type(even) {
+	background-color: #1c658c;
+}
+
+table.second tr:hover {
+	background-color: orange;
+}
+
+
+section.part1 div,
+section.part2 div {
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin: 2px;
+}
+
+/* part1 : nth-of-type */
+
+section.part1 div:first-of-type {
+	background-color: skyblue;
+}
+
+section.part1 div:last-of-type {
+	background-color: yellow;
+}
+
+section.part1 div:nth-last-of-type(2) {
+	background-color: pink;
+}
+
+section.part1 div:nth-of-type(2) {
+	background-color: blue;
+}
+
+/* part2 : nth-child */
+section.part2 div:first-child {
+	background-color: skyblue;
+}
+
+section.part2 div:last-child {
+	background-color: yellow;
+}
+
+section.part2 div:nth-last-child(2) {
+	background-color: pink;
+}
+
+section.part2 div:nth-child(2) {
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
