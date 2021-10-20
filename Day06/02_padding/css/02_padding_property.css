@@ -15,4 +15,7 @@
     background-color: #ddd;
 }
 
-/* TODO 여기에 코드를 작성해보세요:)  */
+.box1{ padding-top: 20px;  }
+.box2{ padding-right: 40px;  }
+.box3{ padding-bottom: 60px;  }
+.box4{ padding-left: 80px;  }
