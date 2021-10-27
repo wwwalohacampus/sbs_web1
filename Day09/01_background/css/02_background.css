@@ -1,0 +1,125 @@
+
+.container {
+    text-align: center;
+}
+
+.inner {
+    width: 70vw;
+    min-height: 70vh;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.back1 { 
+    background-image: url(../img/aloha.png);    
+}
+
+.back2 {
+    min-height: 190px;
+    background-image: url(../img/aloha.png);
+    background-size: 200px 190px;
+    background-repeat: repeat-x;
+}
+
+.back3 {
+    min-height: 600px;
+    background-image: url(../img/aloha.png);
+    background-size: 200px;
+    background-repeat: repeat-y;
+}
+
+.back4 {
+    background-image: url(../img/aloha.png);
+    background-repeat: no-repeat;
+}
+
+.left {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.center {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.top-left {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.top-right {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.bottom-left {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.bottom-right {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.top-center {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.center-center {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bottom-center {
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+
+body {
+    background-image: url(../img/aloha.png);
+    background-size: 200px 190px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+}
+
+.mint {
+    background-color: mediumspringgreen;
+}
+
+.classroom {
+    background-image: url(../img/aloha.png), url(../img/classroom.jpg);
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
+}
+
+.short {
+    
+    /*
+    순서가 유지되면, 누락되어도 문제되지 않음
+    (순서)
+        background-color
+        background-image
+        background-repeat
+        background-attachment
+        background-position
+    */
+    background: url(../img/aloha.png) no-repeat scroll left,
+                url(../img/classroom.jpg) no-repeat scroll center;
+    background-size: contain, cover;                
+
+}
