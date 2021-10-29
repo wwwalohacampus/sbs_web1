@@ -1,0 +1,76 @@
+* { margin: 0; padding: 0; }
+
+input { outline: none; border: none;  background-color: transparent;}
+a { text-decoration: none; color: #000; text-align: center;}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.login-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 550px;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 0.2px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#login {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+/* #login div { border: 1px dashed blue; } */
+
+#login .login-logo { height: 100px; margin-top: 50px; margin-bottom: 30px; }
+#login .login-logo img { width: 100%;  }
+#login .login-inputbox { position: relative; height: 50px; margin-bottom: 10px; }
+input[type='text'] { width: 100%; height: 32px; padding-left: 5px; font-size: 1rem; box-sizing: border-box; border-bottom: 1px solid #AAA;  }
+input::placeholder { color: #AAA; }
+input[type='text'] ~ .border { position: absolute; top: 30px;  left: 0; width: 0; height: 0; border: 0px solid #4285F4; background-color: #4285F4;}
+input[type='text']:focus ~ .border { width: 100%; transition: 0.5s; border: 1px solid #4285F4; background-color: #4285F4;}
+/* input:focus { border-bottom: 1px solid royalblue;  } */
+#login .login-remember { height: 30px; margin-bottom: 15px; }
+label { position: relative; padding-left: 25px; color: #AAA; cursor: pointer;}
+input[type='checkbox'] { position: absolute; opacity: 0; width: 0; height: 0; cursor: pointer; }
+
+label .checkmark { position: absolute;  top: 0;   left: 0;    height: 20px;   width: 20px;    background-color: #eee;  }
+label .checkmark:after { content: ""; position: absolute; display: none;  }
+label input[type='checkbox']:checked ~ .checkmark { background-color: #2196F3;}
+label input[type='checkbox'] ~ .checkmark:after { display: block;  }
+label .checkmark::after { 
+    left: 7px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);  
+}
+
+
+#login .login-btnbox { height: 50px; margin-bottom: 10px; }
+#login .login-btn { display: block; width: 100%; height: 100%; background-color: cornflowerblue; font-size: 1.2rem; color: white; line-height: 50px; border-radius: 5px;}
+#login .login-btn:hover { filter: brightness(90%); }
+
+#login .copy { height: 15px; margin-top: 30px; margin-bottom: 10px;}
+#login .copy p { font-size: 0.7rem; text-align: center; }
+
+
+
+
+
+
+
+
