@@ -1,0 +1,106 @@
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    /* height: 500px; */
+    border: 3px dashed orange;
+    box-sizing: border-box;
+}
+
+.transition1 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    transition: width 2s;
+}
+
+.transition1:hover { width: 600px; }
+
+.transition2 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    transition: height 2s;
+}
+
+.transition2:hover { height: 600px; }
+
+
+.transition3 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    transition: width 1s, height 2s;
+}
+
+.transition3:hover { width: 800px; height: 400px; }
+
+
+.transition4 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    
+    transition-timing-function: linear;
+    transition-duration: 2s;
+}
+
+.transition4:hover { width: 800px; }
+
+.transition5 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+
+.transition5:hover { width: 800px; }
+
+.transition6 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+}
+
+.transition6:hover { width: 800px; }
+
+.transition7 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+}
+
+.transition7:hover { width: 800px; }
+
+.transition8 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.transition8:hover { width: 800px; }
+
+
+.transition9 {
+    width: 200px;
+    height: 200px;
+    background: royalblue;
+    
+    transition-delay: 3s;
+
+}
+
+.transition9:hover { width: 800px; }
+
