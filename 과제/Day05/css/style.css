@@ -1,0 +1,41 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: auto; */
+    padding: 50px;
+    width: 600px;
+    /* height: 400px; */
+    max-height: 700px;
+    border: 1px solid gray;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 450px;
+}
+
+.frame img { 
+    margin: auto; 
+    width: 100%;
+    height: auto;
+}
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
