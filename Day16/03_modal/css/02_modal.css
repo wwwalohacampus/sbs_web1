@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a { text-decoration: none; }
+
+#modal1 {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100001;
+    left: 60px;
+    top: 176px;
+    border: 1px solid black;
+}
+
+#modal2 {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100001;
+    left: 480px;
+    top: 176px;
+    border: 1px solid black;
+}
+
+.modal-content {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.modal-footer {
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    padding: 0px 3px 4px;
+    color: #fff;
+    background: #070a13;
+}
+
+.modal-footer a { color: #fff; float: right; }
+.modal-footer:after {
+    display: block;
+    content: '';
+    clear: both;
+}
