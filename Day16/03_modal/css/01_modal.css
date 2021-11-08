@@ -14,7 +14,7 @@ label#btn{
 }
 
 input#chk-modal{
-    display: none;
+    /* display: none; */
 }
 
 p{
