@@ -209,9 +209,9 @@ footer .inner .list li:last-child a {font-weight: bold; font-family: 'Exo 2',san
 
 
 /* 모바일  */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
     
-    .wrap { min-width: 320px; width: 100vw; }
+    .wrap { min-width: 320px; width: 95vw; margin: 0 auto; }
     header { 
         position: relative;
         min-width: 320px;
@@ -283,19 +283,22 @@ footer .inner .list li:last-child a {font-weight: bold; font-family: 'Exo 2',san
 
     section.contents { padding: 10px 0;}
     section.contents ul li { width: 100%;}
-    section.contents ul li a p.img { height: 250px;}
+    section.contents ul li a p.img { height: 250px; text-align: center; }
+    section.contents ul li a p.img img { display: inline-block; width: 90%; }
+
 
     .mb-category { display: block; }
     .mb-btn {
         /* padding: 12px; */
         line-height: 40px;
         position: absolute;
-        right: 8%;
+        right: 3%;
     }
 
     footer .inner .ftLogo {float: none;  margin: 0 auto; text-align: center;}
+    footer .inner .ftLogo img { height: 50px;}
     footer .inner .address {float: none; margin: 0 auto; text-align: center; margin-bottom: 15px; font-size: 0.9rem;}
-    footer .inner .list { float: none; margin: 0 auto; text-align: center; }
-    footer .inner .list li { float: left;  }
+    footer .inner .list {  text-align: center; }
+    footer .inner .list li { display: inline-block;  }
     footer .inner .list li a { font-size: 0.62rem;}
 }
