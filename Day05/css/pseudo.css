@@ -11,34 +11,46 @@ section {
 }
 
 
+/* TODO 여기에 작성해보세요:) */
+/* :first-of-type 
+	선택자 중 가장 처음에 나오는 요소를 선택
+*/
 section:first-of-type {
-	color: #bc1212;
+	color: royalblue;
 }
 
 
-section:last-of-type:first-letter {
+/* TODO 여기에 작성해보세요:) */
+/* :last-of-type 
+	선택자 중 가장 마지막에 나오는 요소를 선택
+   ::first-letter
+    첫 번재 글자에만 적용
+*/
+section:last-of-type::first-letter {
 	font-size: 2.4em;
 	float: left;
 	padding: 0 2px;
 	margin: -1px 3px 0 0;
 	font-weight: bold;
-	color: #f00;
+	color: red;
 }
 
-
+/* TODO 여기에 작성해보세요:) */
 section em {
 	display: block;
 	text-align: center;
 	padding: 15px;
 	position: relative;
-	font-family: FontAwesome;
 	font-style: normal;
 	font-weight: normal;
 	text-decoration: inherit;
 }
 
+/* TODO 여기에 작성해보세요:) */
 section em:before {
-	/* em 부분에 :before 적용 "(따옴표) 효과 */
+	/* :before 
+		해당 요소의 바로 앞의 스타일을 지정
+	*/
 	content: "\"";
 	padding-right: 0.5em;
 	font-size: 1.5rem;
@@ -46,7 +58,9 @@ section em:before {
 }
 
 section em:after {
-	/* em 부분에 :after 적용 "(따옴표) 효과 */
+	/* :after 
+		해당 요소의 바로 뒤의 스타일을 지정
+	*/
 	content: "\"";
 	padding-left: 0.5em;
 	font-size: 1.5rem;
@@ -54,6 +68,8 @@ section em:after {
 }
 
 
+
+/* TODO 여기에 작성해보세요:) */
 form label {
 	width: 100px;
 	display: inline-block;
@@ -87,10 +103,6 @@ input:focus {
 input:disabled {
 	background-color: #c9c9c9;
 }
-
-
-
-
 
 
 

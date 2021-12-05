@@ -3,16 +3,22 @@
 
 table.first {
 	width: 100%;
+	border: none;
 	border-collapse: collapse;		/* 이중실선(x), 테두리를 실선으로 적용 */
+	border-radius: 8px;
+	overflow: hidden;
+	background-color: rgb(230, 230, 230, 0.4);
+	box-shadow: 5px 5px 10px #aaa;
 }
 
 table.first th {
 	padding: 8px;
-	background-color: #bc1212;
+	background-color: rgb(51, 131, 255);
 	color: #fff;
 	letter-spacing: 3px;
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.first th:nth-child(2) {
 	letter-spacing: 45px;
 }
@@ -22,31 +28,44 @@ table.first td {
 	text-align: center;
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.first td:first-child {
-	width: 15%;
+	width: 10%;
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.first td:nth-child(2) {
-	width: 65%;
+	width: 70%;
 }
 
-table.first td:last-child {
+/* TODO 여기에 작성해보세요:) */
+table.first td:last-child(2) {
 	width: 20%;
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.first tr:nth-child(odd) {
-	background-color: #eee;
+	background-color: rgb(200, 200, 200, .7);
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.first tr:nth-child(even) {
-	background-color: #ffe8e9;
+	background-color: #fff;
 }
 
+table.first th,
+table.first td {
+	border-left: 1px solid #ccc;
+}
+
+/* TODO 여기에 작성해보세요:) */
 table.first tr:hover {
 	background-color: #9d9dff;
+	color: #fff;
 }
 
 
+/* TODO 여기에 작성해보세요:) */
 p:empty {
 	margin: 50px;
 }
@@ -63,7 +82,8 @@ table.second th {
 	letter-spacing: 3px;
 }
 
-table.second th:nth-of-type(2) {
+/* TODO 여기에 작성해보세요:) */
+table.second th:nth-child(2) {
 	letter-spacing: 45px;
 }
 
@@ -71,35 +91,39 @@ table.second th:nth-of-type(2) {
 table.second td {
 	padding: 10px;
 	text-align: center;
-	color: #fff;
+	/* color: #fff; */
 }
 
 table.second td:first-of-type {
 	width: 15%;
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.second td:nth-of-type(2) {
-	text-align: left;
 	width: 65%;
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.second td:last-of-type {
 	width: 20%;
 }
 
 
+/* TODO 여기에 작성해보세요:) */
 table.second tr:nth-of-type(odd) {
-	background-color: #aaa;
+	background-color: #ddd;	
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.second tr:nth-of-type(even) {
-	background-color: #1c658c;
+	background-color: #eee;	
 }
 
+/* TODO 여기에 작성해보세요:) */
 table.second tr:hover {
-	background-color: orange;
+	background-color: coral;
+	color: white;
 }
-
 
 section.part1 div,
 section.part2 div {
@@ -109,38 +133,41 @@ section.part2 div {
 }
 
 /* part1 : nth-of-type */
+/* TODO 여기에 작성해보세요:) */
 
 section.part1 div:first-of-type {
-	background-color: skyblue;
+	background-color: cornflowerblue;
 }
 
 section.part1 div:last-of-type {
-	background-color: yellow;
-}
-
-section.part1 div:nth-last-of-type(2) {
-	background-color: pink;
+	background-color: coral;
 }
 
 section.part1 div:nth-of-type(2) {
-	background-color: blue;
+	background-color: lightseagreen;
 }
 
+section.part1 div:nth-last-of-type(2) {
+	background-color: mediumslateblue;
+}
+
+
 /* part2 : nth-child */
+/* TODO 여기에 작성해보세요:) */
 section.part2 div:first-child {
-	background-color: skyblue;
+	background-color: cornflowerblue;
 }
 
 section.part2 div:last-child {
-	background-color: yellow;
-}
-
-section.part2 div:nth-last-child(2) {
-	background-color: pink;
+	background-color: coral;
 }
 
 section.part2 div:nth-child(2) {
-	background-color: blue;
+	background-color: lightseagreen;
+}
+
+section.part2 div:nth-last-child(2) {
+	background-color: mediumslateblue;
 }
 
 
