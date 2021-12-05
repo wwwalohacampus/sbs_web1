@@ -40,14 +40,54 @@ section em {
 section em:before {
 	/* em 부분에 :before 적용 "(따옴표) 효과 */
 	content: "\"";
-	padding-right: 0.5em; 
+	padding-right: 0.5em;
+	font-size: 1.5rem;
+	color: lightcoral;
 }
 
 section em:after {
 	/* em 부분에 :after 적용 "(따옴표) 효과 */
 	content: "\"";
-	padding-left: 0.5em; 
+	padding-left: 0.5em;
+	font-size: 1.5rem;
+	color: lightcoral;
 }
+
+
+form label {
+	width: 100px;
+	display: inline-block;
+}
+
+form input {
+	height: 1.8em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 2px 5px;
+	outline: none;
+}
+
+/* :eanbled
+	활성화된 태그를 선택
+*/
+input:enabled {
+	background-color: #beffff;
+}
+
+/* :focus
+	커서로 지정된 태그를 선택
+*/
+input:focus {
+	background-color: #82f9b7;
+}
+
+/* :disabled
+	비활성화된 태그를 선택
+*/
+input:disabled {
+	background-color: #c9c9c9;
+}
+
 
 
 
