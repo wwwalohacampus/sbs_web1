@@ -11,43 +11,54 @@ section {
 	[속성^='A']	{  }	: 속성이 'A'로 시작하는 요소 선택
 	[속성$='A']	{  }	: 속성이 'A'로 끝나는 요소 선택
 	[속성*='A']	{  }	: 속성에 'A'가 포함되는 요소 선택
-	
+
 */
 
 /* 속성명 id, 속성값이 '2' 로 끝나는 경우 */
+/* TODO 여기에 작성해보세요:) */
 section[id$='2'] {
-	background-color: #fedd31;
+	background-color: yellow;
 	padding: 10px;
 }
 
+
 /* 속성명이 class 인 경우 */
-div[class] {				
+/* TODO 여기에 작성해보세요:) */
+div[class] {
 	padding: 5px;
 	margin: 5px;
 	border: 1px solid #ccc;
 }
 
+
 /* 속성명 class, 속성값이 'l'로 시작하는 경우 */
+/* TODO 여기에 작성해보세요:) */
 div[class^='l'] {
 	background-color: skyblue;
 }
 
+
 /* 속성명 class, 속성값에 'i'가 포함되는 경우 */
+/* TODO 여기에 작성해보세요:) */
 div[class*='i'] {
 	background-color: pink;
 }
 
+
 /* 속성명 class, 속성값이 '4'로 끝나는 경우*/
+/* TODO 여기에 작성해보세요:) */
 div[class$='4'] {
-	background-color: black;
-	color: white; 
+	background-color: royalblue;
 }
+
 
 /* 속성명 class, 속성값에 'e'가 포함되는 경우*/
 /* 속성명 class, 속성값이 '2'로 끝나는 경우*/
+/* TODO 여기에 작성해보세요:) */
 div[class*='e'][class$='2'] {
-	background-color: blue;
+	background-color: seagreen;
 }
+
 
 
 
