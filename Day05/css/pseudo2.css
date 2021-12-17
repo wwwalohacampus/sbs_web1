@@ -39,7 +39,7 @@ table.first td:nth-child(2) {
 }
 
 /* TODO 여기에 작성해보세요:) */
-table.first td:last-child(2) {
+table.first td:last-child {
 	width: 20%;
 }
 
