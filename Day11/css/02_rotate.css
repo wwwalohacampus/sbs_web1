@@ -18,7 +18,7 @@
     border: 1px solid #ddd;
     padding: 30px;
     box-sizing: border-box;
-    /* perspective: 300px; */
+    perspective: 300px;
 }
 
 .item {

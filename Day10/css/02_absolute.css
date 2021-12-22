@@ -23,20 +23,28 @@
     border: 3px solid black;
 }
 
+/* 초기위치 */
 .container .base {
     position: absolute;
     border: 3px dashed #ddd;
-    z-index: -1;
     color: #ddd;
-   
+    z-index: -1;
 }
 
-.first { left: 0; }
-.second { right: 0; }
-.third { left: 0; bottom: 0; }
-.fourth { right: 0; bottom: 0; }
+.first { top: 0; left: 0;}
+.second { top: 0; right: 0;}
+.third { bottom: 0; left: 0;}
+.fourth { bottom: 0; right: 0;}
+
+.center { 
+    /* 가로 가운데, 세로 가운데  */
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
 
 .fifth { top: 0; left: 500px; }
 .sixth { top: 200px; left: 500px; }
 .seventh { top: 400px; left: 500px; }
-.eighth { top: 600px; left: 500px; } 
+.eighth { top: 600px; left: 500px; }
